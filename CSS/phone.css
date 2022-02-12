@@ -1,0 +1,18 @@
+html, body {
+    
+    margin: 0; 
+    height: 90vh; 
+    overflow: hidden
+}
+
+.back{
+    background: url('../image/bg2.jpg') no-repeat center center/cover ;
+    min-height: 100vh;
+    /* min-width: 100vw; */
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center; 
+    flex-direction: column-reverse;
+    
+}
